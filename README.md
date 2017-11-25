@@ -23,16 +23,22 @@ hovers while editing Spring Boot Properties in either `.properties` or `.yml` fo
 
 ## Validation
 
+Property keys as well as property values are validated. Property keys are validated for being known properties and values are checked for being of expected type as well being a valid value
+
 ![application-yaml-validation][yaml-validation]
 ![application-properties-validation][properties-validation]
 
 ## Code Completions
+
+Both YAML and Properties formats have support for Content Assist on property keys and values helping to write valid Spring Boot configuration files right from the start.
 
 ![application-yaml-completions][yaml-completion]
 
 ![application-properties-completions][properties-completion]
 
 ## Information Hovers
+
+Hovering over property keys provide valuable documentation about the purpose of the property and expected type for its value in a small popup window.
 
 ![application-yaml-hovers][yaml-hovers]
 
@@ -51,8 +57,8 @@ that can be donwloaded from
 2. Execute `apm link .` from that folder
 3. Execute `Window Reload` (Package -> Command Palette -> Toggle then search for it) command in the opened Atom instance or open an Atom instance
 
-[yaml-completion]: https://github.com/spring-projects/sts4/raw/5360ae4fabf9245da58f5897c54e9a14786d0622/vscode-extensions/vscode-boot-properties/readme-imgs/yaml-completion.png
-[properties-completion]: https://github.com/spring-projects/sts4/raw/5360ae4fabf9245da58f5897c54e9a14786d0622/vscode-extensions/vscode-boot-properties/readme-imgs/properties-completion.png
-[yaml-validation]: https://github.com/spring-projects/sts4/raw/5360ae4fabf9245da58f5897c54e9a14786d0622/vscode-extensions/vscode-boot-properties/readme-imgs/yaml-validation.png
-[properties-validation]: https://github.com/spring-projects/sts4/raw/5360ae4fabf9245da58f5897c54e9a14786d0622/vscode-extensions/vscode-boot-properties/readme-imgs/properties-validation.png
-[yaml-hovers]: https://github.com/spring-projects/sts4/raw/5360ae4fabf9245da58f5897c54e9a14786d0622/vscode-extensions/vscode-boot-properties/readme-imgs/yaml-hovers.png
+[yaml-completion]: https://github.com/spring-projects/sts4/blob/714c6bbb519f714ebba9f9fc5968ac2e619159f8/atom-extensions/atom-boot-properties/readme-imgs/yaml-completion.png
+[properties-completion]: https://github.com/spring-projects/sts4/blob/714c6bbb519f714ebba9f9fc5968ac2e619159f8/atom-extensions/atom-boot-properties/readme-imgs/properties-completion.png
+[yaml-validation]: https://github.com/spring-projects/sts4/blob/714c6bbb519f714ebba9f9fc5968ac2e619159f8/atom-extensions/atom-boot-properties/readme-imgs/yaml-validation.png
+[properties-validation]: https://github.com/spring-projects/sts4/blob/714c6bbb519f714ebba9f9fc5968ac2e619159f8/atom-extensions/atom-boot-properties/readme-imgs/properties-validation.png
+[yaml-hovers]: https://github.com/spring-projects/sts4/blob/714c6bbb519f714ebba9f9fc5968ac2e619159f8/atom-extensions/atom-boot-properties/readme-imgs/yaml-hovers.png
