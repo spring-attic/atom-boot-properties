@@ -1,4 +1,4 @@
-'.source.bosh-deployment-manifest':
+'.source.boot-properties-yaml':
   'editor':
     'autoIndentOnPaste': false
     'commentStart': '# '
